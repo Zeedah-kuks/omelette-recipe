@@ -1,0 +1,95 @@
+body {
+    margin: 0;
+    font-family: 'Outfit' sans-serif;
+    line-height: 1.6;
+    background-color: rgba(241, 236, 227);
+    color: rgb(20, 20, 20);
+}
+
+.page-wrapper {
+    padding: 2rem;
+    width: 100%;
+}
+
+.recipe-container {
+    width: 100%;
+    max-width: 730px;
+    margin: 0 auto;
+    background: white;
+    border-radius: 15px;
+    overflow: hidden;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.05);
+}
+
+
+.recipe-image{
+    width: 100%;
+    height: auto;
+    border-bottom: 1px solid rgb(223, 217, 217);
+}
+
+.recipe-content {
+    padding: 2rem;
+}
+
+.highlight-box {
+    margin: 1.5rem;
+    border-radius: 0.75rem;
+    padding: 1.25rem;
+    background-color: rgba(238, 235, 237, 0.938);
+}
+
+h1, h2 {
+    color: rgb(170, 97, 97);
+    font-family: 'Young serif' serif;
+}
+
+h1 {
+    font-size: 2rem;
+    margin-bottom: 1.25rem;
+    color: rgb(56, 54, 54);
+  }
+  
+h2 {
+    font-size: 1.5rem;
+    margin: 1.5rem 0 1rem;
+  }
+  
+h3 {
+    color: rgb(117, 46, 117);
+    font-size: 1.25rem;
+  }
+
+  .ingredient-list li,
+.instruction-steps li {
+  padding-left: 1rem;
+  margin-bottom: 0.5rem;
+}
+
+.instruction-steps li {
+  margin-bottom: 1rem;
+}
+
+
+.table-container {
+  overflow-x: auto;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+tr:not(:last-child) {
+  border-bottom: 1px solid #e0e0e0;
+}
+
+td {
+  padding: 0.75rem 1.5rem;
+}
+
+
+td:nth-child(2) {
+  color: #854632;
+  font-weight: bold;
+}
